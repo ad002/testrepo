@@ -23,9 +23,19 @@
 #Once you've worked on your files it's time to commit them. Via "git commit -m <"your message"> command
 #But first, you have to stage them via "git add" command. This will mark any changes you've made
 #git add <files>
+#If you're fine with the changes, commit them via: 
 #git commit -m "this is my first commit"
 
-#Now 
+#Now you can create a repo on GitHub (manually). 
+#and then, you can push your files to that repo (once commited) 
+#git remote add origin https://github.com/ad002/testrepo.git
+#git push -u origin master
+
+#if you get like an "error: src refspec master does not match any."
+#Just recheck whether you've committed before! 
+#git commit -m "this is my commit"
+#git push -u origin master
+
 
 
 #The original folder is now referred to as your working direcoty as opposed to the 
